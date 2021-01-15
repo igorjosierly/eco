@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Ubuntu:ital@1&display=swap');
+</style>
+
+html, body
+{background-color:#e5edff;
+height:100%;
+margin:0px 15px;}
+
+h2{font-family:'ubutu',sans-serif;
+color:#322153; 
+font-size: 36px;
+font-weight: bold;}
+
+p{ font-family:'roboto',sans-serif;
+color: #666666;
+font-size: 18px;}
+
+#armario{ display: flex;
+flex-direction: column;
+height: 100%;}
+
+#conteudo {flex: 1 ;}
+
+#topo img{margin: 80px;}
+
+.botao{ background-color: #29a361;
+border: 15px;
+font-family: 'roboto',sans-serif;
+font-kerning: bold;
+color: white;}
+
+.botao div {margin: 10px;}
